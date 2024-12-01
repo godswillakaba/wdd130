@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent1: #e36414;
+  --accent2: #78cad2;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Georgia', sans-serif;
+  color: #e36414;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+p {
+  font-family: 'Times New Roman', Times;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #333;
+  margin-left: 10px;
+}
+
+.sociallink a {
+  text-decoration: none;
+}
+
+.sociallink img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img{
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+.hero article   {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  margin: 15%;
+  text-align: center;
+  background-color: rgba(16, 31, 70, 0.6);
+  padding: 20px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 900px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero article p {
+  color: rgb(254, 251, 253);
+  font-size: 1.5rem;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(34, 10, 10, 0.329);
+  padding: 30px 650px;
+  white-space: nowrap;
+}
+
+.hero article img {
+  float: right;
+  margin: 0 0 10px 10px;
+  width: 40%;
+  height: auto;
+}
+
+.article p {
+  text-align: justify;
+}
+
+
+.section p {
+  font-family: 'Times New Roman', Times;
+  font-size: 18px;
+  color: #1f1111;
+}
+
+.adventure-images img {
+  width: 900px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 40px;
+}
