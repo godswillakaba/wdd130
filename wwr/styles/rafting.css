@@ -92,9 +92,6 @@ p {
   width: 100%
 }
 
-
-
-
 .hero h1 {
   position: absolute;
   top: 20%;
@@ -141,7 +138,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #011e23;;
+  background-color: #011e23;
   margin-bottom: 20px;
 }
 
@@ -155,11 +152,12 @@ p {
   display: inline-block;
   text-decoration: none;
   color: #f4f4f4;
-  background-color: #ef2e07;
+  background-color: #e33614;
+  border-radius: 5%;
   padding: 5px 10px;
-  border: 2px solid rgb(246, 233, 4);
   font-size: 1.5rem;
   text-align: center;
+
 }
 
 .header .logo {
@@ -287,10 +285,11 @@ p {
 }
 
 
-#contact_details {
+
+/*#contact_details {
   text-align: center;
   margin: 20px;
-}
+}*/
 
 #contact_details, h1 {
   color: rgb(196, 69, 2);
@@ -299,12 +298,21 @@ p {
   font-size: 3rem;
 }
 
-#contact_details a {
-  text-decoration: none;
-  border: none;
+#contact_details a img {
+  width: 150px;
+  height: auto;
+  padding: 10px;  
 }
 
-.contact_info {
+#contact_details .contact_info a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  
+}
+
+#contact_details .contact_info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -312,6 +320,13 @@ p {
   margin-top: 30px;
 }
 
+#contact_details .contact_info a span {
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #007bff;
+  text-decoration: underline;
+}
 
 #google_map iframe {
   width: 100%;
