@@ -64,11 +64,11 @@ p {
   transform: translate(-50%, -50%);
   margin: 15%;
   text-align: center;
-  background-color: rgba(16, 31, 70, 0.6);
-  padding: 20px 10px;
+  background-color: rgba(65, 66, 69, 0.6);
+  padding: 50px 30px;
   box-sizing: border-box;
   width: 100%;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 .hero {
@@ -81,6 +81,9 @@ p {
   color: rgb(254, 251, 253);
   font-size: 1.5rem;
 }
+
+
+
 
 .logo img {
   width: 120px;
@@ -109,7 +112,7 @@ p {
 .hero article img {
   float: right;
   margin: 0 0 10px 10px;
-  width: 40%;
+  width: 20%;
   height: auto;
 }
 
@@ -285,11 +288,12 @@ p {
 }
 
 
-
-/*#contact_details {
-  text-align: center;
-  margin: 20px;
-}*/
+/*
+.contact_details {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
 #contact_details, h1 {
   color: rgb(196, 69, 2);
@@ -297,52 +301,130 @@ p {
   margin-top: 70px;
   font-size: 3rem;
 }
+#contact_details img {
+  position: absolute;
+  object-fit: cover;
+  width: 97%;
+  height: 70%;
+  top: 45%;
+  left:1%;
+  right: 3%
+}
 
 #contact_details a img {
-  width: 150px;
-  height: auto;
-  padding: 10px;  
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  display: grid;
 }
 
 #contact_details .contact_info a {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-decoration: none;
+  text-decoration: none; 
+}
+
+
+#contact_details .contact_info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
   
 }
 
-#contact_details .contact_info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 80px;
-  margin-top: 30px;
+#contact_details .contact_info a span {
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+  margin-top: 400px;
+}   *?
+
+
+
+*/
+/* Contact details section */
+#contact_details {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
 }
 
-#contact_details .contact_info a span {
-  margin-top: 10px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  color: #007bff;
-  text-decoration: underline;
+/* Background image styling */
+.background img {
+  width: 100%;
+  height: 600px; /* Adjust height as needed */
+  object-fit: cover; /* Ensure the image fits within the container */
+  position: relative;
+  z-index: -1; /* Send image to the back */
 }
+
+/* Contact info styling */
+.contact_info {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 90px; /* Space between each link */
+  position: absolute;
+  top: 150px; /* Adjust position over the background image */
+  width: 100%;
+  left: 0;
+  color: white;
+}
+
+/* Style individual contact links */
+.contact_info a {
+  text-decoration: none;
+  display: flex;
+  align-items: center; /* Align icons and text vertically */
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounded corners for a modern look */
+  transition: background-color 0.3s ease;
+}
+
+.contact_info a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+}
+
+/* Style icons within links */
+.contact_info a img {
+  width: 40px; /* Adjust icon size */
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Section title styling */
+#contact_details h1 {
+  position: relative;
+  margin-bottom: 10px;
+  z-index: 1; /* Ensure the heading is visible */
+  font-size: 2.5rem;
+}
+
+
 
 #google_map iframe {
   width: 100%;
-  height: 200px;
+  height: 450px;
   border: none;
-  height: 500px;
   border-bottom: 200px;
+  
 }
 
 
 #google_map, h3 {
   font-size: 2.3rem;
   color: rgb(196, 69, 2);
-  margin-top: 90px;
+  margin-top: 80px;
   margin-bottom: 30px;
   text-align: center;
+  border-top: 90px;
 }
 
 #employee_profiles {
